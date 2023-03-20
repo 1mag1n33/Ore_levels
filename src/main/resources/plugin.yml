@@ -1,0 +1,16 @@
+name: Ore levels
+version: '${project.version}'
+main: org.levels.ore_levels.OreLevels
+api-version: 1.19
+commands:
+  ore:
+    description: KillMeiKillU main command
+    usage: /ore <subcommand> [args]
+    aliases: [ore_levels]
+    subcommands:
+      iron:
+        description: Says hello
+        usage: /ore hello
+      help:
+        description: List all of the subcommands
+        usage: /ore help
