@@ -4,19 +4,25 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
+import org.levels.ore_levels.OreLevels;
 import org.levels.ore_levels.commands.ores.*;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+
+
 public class BaseCommand implements CommandExecutor, TabCompleter {
+
+    String alias = OreLevels.Alias;
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length == 0) {
             sender.sendMessage("Ore levels main command");
-            sender.sendMessage("Usage: /ore <subcommand> [args]");
-            sender.sendMessage("Type /ore help for a list of subcommands.");
+            sender.sendMessage("Usage: /"+alias+" <subcommand> [args]");
+            sender.sendMessage("Type /"+alias+" help for a list of subcommands.");
             return true;
         }
 
@@ -47,7 +53,7 @@ public class BaseCommand implements CommandExecutor, TabCompleter {
                 return new ancient_debris().onCommand(sender, command, label, Arrays.copyOfRange(args, 1, args.length));
             default:
                 sender.sendMessage("Unknown subcommand: " + args[0]);
-                sender.sendMessage("Type /ore help for a list of subcommands.");
+                sender.sendMessage("Type /"+alias+" help for a list of subcommands.");
                 return true;
         }
     }
