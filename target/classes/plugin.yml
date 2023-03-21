@@ -1,0 +1,46 @@
+name: Ore_levels
+version: '1.0-SNAPSHOT'
+main: org.levels.ore_levels.OreLevels
+api-version: 1.19
+commands:
+  ore:
+    description: KillMeiKillU main command
+    usage: /ore <subcommand> [args]
+    aliases: [ore_levels]
+    subcommands:
+      iron:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      coal:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      copper:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      diamond:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      emerald:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      gold:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      lapis:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      redstone:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      ancient_debris:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      nether_quartz:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      nether_gold:
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      help:
+        description: List all of the subcommands
+        usage: /ore help

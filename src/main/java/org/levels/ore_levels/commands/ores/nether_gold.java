@@ -1,4 +1,4 @@
-package org.levels.ore_levels;
+package org.levels.ore_levels.commands.ores;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -8,10 +8,10 @@ import org.bukkit.command.TabCompleter;
 import java.util.Collections;
 import java.util.List;
 
-public class iron implements CommandExecutor, TabCompleter {
+public class nether_gold implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        sender.sendMessage("Iron can appear beneath the surface of the Overworld from Y: 72 all the way to Y: -64");
+        sender.sendMessage("Nether gold generates from y=7 to y=117 with a fairly even distribution.");
         return true;
     }
 

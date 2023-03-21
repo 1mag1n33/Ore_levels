@@ -1,4 +1,4 @@
-package org.levels.ore_levels;
+package org.levels.ore_levels.commands.ores;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -8,13 +8,10 @@ import org.bukkit.command.TabCompleter;
 import java.util.Collections;
 import java.util.List;
 
-public class help implements CommandExecutor, TabCompleter {
+public class redstone implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        sender.sendMessage("=== Help ===");
-        sender.sendMessage("/command1 - Description of command1");
-        sender.sendMessage("/command2 - Description of command2");
-        sender.sendMessage("/command3 - Description of command3");
+        sender.sendMessage("Redstone can appear between Y: -63 and Y: 15");
         return true;
     }
 

@@ -1,0 +1,15 @@
+org\levels\ore_levels\commands\BaseCommand.class
+org\levels\ore_levels\commands\ores\coal.class
+org\levels\ore_levels\commands\ores\gold.class
+org\levels\ore_levels\commands\ores\nether_quartz.class
+org\levels\ore_levels\commands\ores\redstone.class
+org\levels\ore_levels\OreLevels.class
+org\levels\ore_levels\commands\ores\diamond.class
+org\levels\ore_levels\commands\ores\ancient_debris.class
+org\levels\ore_levels\commands\ores\nether_gold.class
+org\levels\ore_levels\Msg.class
+org\levels\ore_levels\commands\help.class
+org\levels\ore_levels\commands\ores\copper.class
+org\levels\ore_levels\commands\ores\emerald.class
+org\levels\ore_levels\commands\ores\lapis.class
+org\levels\ore_levels\commands\ores\iron.class

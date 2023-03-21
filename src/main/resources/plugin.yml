@@ -1,4 +1,4 @@
-name: Ore levels
+name: Ore_levels
 version: '${project.version}'
 main: org.levels.ore_levels.OreLevels
 api-version: 1.19
@@ -9,8 +9,38 @@ commands:
     aliases: [ore_levels]
     subcommands:
       iron:
-        description: Says hello
-        usage: /ore hello
+        description: Responds with the y level to find iron
+        usage: /ore iron
+      coal:
+        description: Responds with the y level to find coal
+        usage: /ore coal
+      copper:
+        description: Responds with the y level to find copper
+        usage: /ore copper
+      diamond:
+        description: Responds with the y level to find diamond
+        usage: /ore diamond
+      emerald:
+        description: Responds with the y level to find emerald
+        usage: /ore emerald
+      gold:
+        description: Responds with the y level to find gold
+        usage: /ore gold
+      lapis:
+        description: Responds with the y level to find lapis
+        usage: /ore lapis
+      redstone:
+        description: Responds with the y level to find redstone
+        usage: /ore redstone
+      ancient_debris:
+        description: Responds with the y level to find ancient_debris
+        usage: /ore ancient_debris
+      nether_quartz:
+        description: Responds with the y level to find nether_quartz
+        usage: /ore nether_quartz
+      nether_gold:
+        description: Responds with the y level to find nether_gold
+        usage: /ore nether_gold
       help:
         description: List all of the subcommands
         usage: /ore help
